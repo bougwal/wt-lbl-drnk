@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.drink-thumbnail {
+    border-radius: 10%;
+    }
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+}
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+} 
+.translations-slider{
+    padding: 10px;
+    display: grid;
+    text-align: left;
+}
+.fst-dr-card {
+    max-width: 420px;
+    margin: 25px;
+    box-shadow: 10px 10px 5px #ced0cd;
+  }
+.fst-dr-content {
+    text-align: center;
+}
+.fst-dr-image {
+    background-image: url('/../assets/eliq.jpg');
+    background-size: cover;
+}
+.fst-drl-spacer {
+    flex: 1 1 auto;
+  }
